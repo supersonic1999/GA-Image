@@ -1,0 +1,30 @@
+﻿Build started 09/05/2016 19:42:03.
+     1>Project "C:\Users\Jason\Desktop\Indv. Proj (13-04-16)\Solution\Project\gldemo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\gldemo.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\gldemo.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneticAlgorithm.cpp Quad.cpp Quad.h ShaderLoader.cpp TextureLoader.cpp gldemo.cpp setup_cl.cpp
+         Skipping... (no relevant changes detected)
+         setup_cl.cpp
+         gldemo.cpp
+         TextureLoader.cpp
+         ShaderLoader.cpp
+         Quad.h
+         Quad.cpp
+         GeneticAlgorithm.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jason\Desktop\Indv. Proj (13-04-16)\Solution\Project\Debug\gldemo.exe" /INCREMENTAL /NOLOGO OpenCL.lib FreeImage\FreeImagePlus.lib windowscodecs.lib CoreStructures\CoreStructures.lib CGImport\CGImport3.lib freeglut\freeglut.lib glew\glew32.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jason\Desktop\Indv. Proj (13-04-16)\Solution\Project\Debug\gldemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jason\Desktop\Indv. Proj (13-04-16)\Solution\Project\Debug\gldemo.lib" /MACHINE:X86 Debug\GeneticAlgorithm.obj
+         Debug\gldemo.obj
+         Debug\setup_cl.obj
+         Debug\ShaderLoader.obj
+         Debug\stdafx.obj
+         Debug\Quad.obj
+         Debug\Quad.obj
+         Debug\TextureLoader.obj
+         FreeImage\FreeImage.lib
+         gldemo.vcxproj -> C:\Users\Jason\Desktop\Indv. Proj (13-04-16)\Solution\Project\Debug\gldemo.exe
+     1>Done Building Project "C:\Users\Jason\Desktop\Indv. Proj (13-04-16)\Solution\Project\gldemo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.87
